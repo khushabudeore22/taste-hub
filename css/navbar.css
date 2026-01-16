@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f6eddc;
+}
+.navbar-main-container {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-items: center;
+    position:sticky;
+    top: 0;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.project-name {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.main-logo {
+    border-radius: 25px;
+}
+
+.nav-link-container {
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.menu-item {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.auth-link-container {
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+}

@@ -4,6 +4,7 @@ body {
     background-color: #f6eddc;
 }
 .navbar-main-container {
+    height: 60px;
     background-color: black;
     color: white;
     display: flex;

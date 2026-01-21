@@ -1,7 +1,171 @@
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #f6eddc;
+  margin: 0;
+  padding: 0;
+  background-color: #f6eddc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Georgia", serif;
+}
+
+/* BODY */
+body {
+  background-color: #f6eddc;
+  color: #333;
+}
+
+/* NAVBAR */
+.navbar {
+  background: #000;
+  color: white;
+  padding: 15px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.navbar nav a.active,
+.navbar nav a:hover {
+  color: #ff7a3d;
+}
+
+/* HERO */
+.hero {
+  padding: 80px 60px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 18px;
+  max-width: 700px;
+  margin: auto;
+}
+
+/* BUTTONS */
+.buttons {
+  margin-top: 30px;
+}
+
+.btn-primary {
+  background: #ff7a3d;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.btn-secondary {
+  background: #4caf50;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* FEATURES */
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 60px;
+}
+
+.feature-card {
+  background: #fff;
+  padding: 30px;
+  width: 260px;
+  cursor: pointer;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card h3 {
+  color: #ff7a3d;
+  margin-bottom: 10px;
+}
+
+.feature-card:hover{
+ box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+/* ABOUT SECTION */
+.about-section {
+  padding: 60px;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.about-section p {
+  max-width: 800px;
+  margin: auto;
+  font-size: 17px;
+}
+
+.about-section ul {
+  margin-top: 20px;
+  list-style: none;
+}
+
+.about-section li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+/* STATS */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background: #fff;
+  padding: 60px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.stat h1 {
+  color: #ff7a3d;
+  font-size: 40px;
+}
+
+.stat p {
+  font-size: 16px;
+}
+
+/* FOOTER */
+footer {
+  background: #000;
+  color: white;
+  text-align: center;
+  padding: 15px;
 }
 
 /* Footer Section */

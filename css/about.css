@@ -4,45 +4,6 @@ body {
   background-color: #f6eddc;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Georgia", serif;
-}
-
-/* BODY */
-body {
-  background-color: #f6eddc;
-  color: #333;
-}
-
-/* NAVBAR */
-.navbar {
-  background: #000;
-  color: white;
-  padding: 15px 60px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.navbar .logo {
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.navbar nav a {
-  color: white;
-  margin: 0 15px;
-  text-decoration: none;
-}
-
-.navbar nav a.active,
-.navbar nav a:hover {
-  color: #ff7a3d;
-}
-
 /* HERO */
 .hero {
   padding: 80px 60px;
@@ -86,6 +47,81 @@ body {
   cursor: pointer;
 }
 
+.main-info-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 10%;
+  gap: 60px;
+  background: #ffffff;
+}
+
+/* LEFT CONTENT */
+.main-info {
+  max-width: 55%;
+}
+
+.subtitle {
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #666;
+}
+
+.main-info h1 {
+  font-size: 48px;
+  margin: 15px 0;
+  color: #1a1a1a;
+  line-height: 1.2;
+}
+
+.main-info p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+/* RIGHT IMAGE */
+.image-wrapper {
+  position: relative;
+}
+
+.main-logo-info {
+  width: 380px;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 10px solid #000;
+}
+
+/* OUTLETS BADGE */
+.badge {
+  position: absolute;
+  top: 20px;
+  right: -30px;
+  width: 140px;
+  height: 140px;
+  background: #fff;
+  border: 6px solid #9b6a00;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.badge h2 {
+  margin: 0;
+  font-size: 36px;
+  color: #000;
+}
+
+.badge span {
+  font-size: 14px;
+  color: #555;
+}
+
+
 /* FEATURES */
 .features {
   display: flex;
@@ -109,8 +145,8 @@ body {
   margin-bottom: 10px;
 }
 
-.feature-card:hover{
- box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+.feature-card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 
 }
 
@@ -118,6 +154,9 @@ body {
 .about-section {
   padding: 60px;
   text-align: center;
+  background-color: #fff;
+  margin:50px;
+  
 }
 
 .about-section h2 {

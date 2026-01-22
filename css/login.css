@@ -3,6 +3,135 @@ body {
     padding: 0;
     background-color: #f6eddc;
 }
+.container {
+    display: flex;
+    min-height: 400px;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.left-side {
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay {
+    /* margin-bottom: 350px; */
+    padding-top: 240px;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+    padding-left: 55px;
+    margin-bottom: 190px;
+}
+
+.quote {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "playfair display", serif;
+}
+
+.subtext {
+    font-size: 27px;
+    font-family: "merriweather",serif;
+}
+
+.right-side {
+    flex: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    width: 500px;
+}
+
+.login-card {
+    background-color: #FFFFFF;
+    padding: 32px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 390px;
+    height: 340px;
+    /* padding-bottom: 150px; */
+    padding-right: 50px;
+    padding-top: 30px;
+
+}
+
+.login-card:hover {
+    box-shadow: 5px 5px 6px  rgb(148, 148, 159);
+    transition: 0.3s ease-in-out;
+}
+
+.login-card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #023047;
+}
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 7px;
+    color: #023047;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    border-color: #2a717f;
+}
+
+.btn {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 4px;
+    margin-top: 10px;
+
+}
+
+.btn-primary {
+
+    background-color: #FF6F00;
+    color: #FFFFFF;
+    align-items: center;
+    width: 150px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 52px;
+    padding: 10px 130px 10px 130px;
+    border-radius: 50px;
+}
+
+.btn-primary:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.links {
+    text-align: center;
+    margin-top: 16px;
+}
+
+.links a {
+    color: #0077B6;
+    text-decoration: none;
+
+}
+
+.links a:hover {
+    color: #0077B6;
+}
 
 /* Footer Section */
 .footer {

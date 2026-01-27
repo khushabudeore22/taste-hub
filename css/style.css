@@ -148,7 +148,6 @@ body {
 
 /* Main Heading Of Project */
 .main-text-content {
-  height: 520px;
   display: flex;
   flex-direction: column;
   justify-content: center;

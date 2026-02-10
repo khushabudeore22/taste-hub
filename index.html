@@ -37,7 +37,6 @@
             <div>
                 <img src="./images/main-image.svg" alt="Delicious Food" class="main-image" />
             </div>
-
             <div class="main-text-content">
                 <span class="project-heading">Welcome to Taste Hub</span>
                 <span class="project-subheading">
@@ -73,16 +72,18 @@
             </div>
 
             <!-- Image slider -->
-            <div>
-                <div class="slider">
-                    <img src="./images/burger.png">
-                    <img src="./images/cheese-pizza.png">
-                    <img src="./images/chocolate-cake.png">
-                    <img src="./images/chicken-biryani.png">
-                    <img src="./images/paneer-butter-masala.png">
-                    <img src="./images/veg-momos.png">
-                    <img src="./images/sandwich.png">
+            <div class="slider">
+                <div class="slides">
+                    <img src="./images/burger.png" class="slide active">
+                    <img src="./images/chicken-biryani.png" class="slide">
+                    <img src="./images/cheese-pizza.png" class="slide">
+                    <img src="./images/desert.png" class="slide">
+                    <img src="./images/paneer-butter-masala.png" class="slide">
+                    <img src="./images/chocolate-cake.png" class="slide">
                 </div>
+
+                <button class="prev">&#10094;</button>
+                <button class="next">&#10095;</button>
             </div>
 
             <!-- Categories preview -->
@@ -313,6 +314,8 @@
         </footer>
 
     </div>
+
+    <script src="./js/index.js"></script>
 </body>
 
 </html>
